@@ -1,0 +1,52 @@
+header {
+    background:$main-color;
+    color: #ffffff;
+    border-bottom: #e8491d 3px solid;
+
+    .fa{
+        color:#fff;
+        margin-right:3px;
+    }
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    margin-left:5px;
+    transform: scale(1);
+    transform-origin: top;
+    transition: all 250ms ease-out;
+   
+    &::before{
+        content:'';
+        position: absolute;
+        border: 1px solid red;
+        bottom:0;
+        left:5%;
+        width:90%;
+        transition: transform 300ms ease-in;
+        transform: scale(0);
+        transform-origin: right;
+    }
+    &:hover{
+        color:#ffffff;
+        transform: scale(1.1);
+        &::before{
+            transform: scale(1);
+            transform-origin: left;
+        }
+
+       
+    }
+  }
+  
+  
+  
+  
+  
+
+
+
+
+

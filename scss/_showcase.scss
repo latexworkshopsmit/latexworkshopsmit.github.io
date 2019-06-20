@@ -1,0 +1,62 @@
+
+#showcase{
+text-align: center;
+min-height: 50vh;
+background-color: $main-color;
+background-image: url('../img/bg_1920.jpg');
+background-attachment: fixed;
+background-size: cover;
+color:#fff;
+font-weight: 600;
+
+
+
+    .jumbotron{
+        background:rgba(0, 0, 0, 0.57);
+        min-height: 50vh;
+        display: flex;
+        align-content: center;
+        align-items: center;
+         h1, h2{
+            font-family: 'Poppins', sans-serif;
+         }
+
+
+        @media only screen and (max-width:$mobile){
+            h1{
+                font-size: 2rem;
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+        @media only screen and (max-width:$ipad){
+            h1{
+                font-size: 3rem;
+            }
+            h2{
+                font-size: 2.5rem;
+            }
+        }
+
+        @media only screen and (min-width:$medium){
+            h1{
+                font-size: 3.5rem;
+            }
+            h2{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width:$large){
+        h1{
+            font-size: 4.5rem;
+        }
+        h2{
+            font-size: 3rem;
+        }
+    }
+}
+
+

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    renderMathInElement(document.body, {
+                        delimiters:[
+                            {left: '\\begin{equation}', right: '\\end{equation}', display:true},
+                            {left: '$$', right:'$$',display:true},
+                            {left:'$', right:'$', display: false},
+                            {left:'\\(', right:'\\)', display: false}
+                        ]
+                    });
+                });
+            </script>
+    <link rel="stylesheet" href="./scss/main.css">
+    <title> WTSDL 2019</title>
+  </head>
+  <body>
+
+    <div id="header_section"></div>
+
+
+<section id="showcase" class="clearfix">
+<div class="jumbotron">
+    <div class="container">
+        <h1> National Workshop on Typing Scientific
+                Documents in $\LaTeX$ </h1>
+        <button class="btn btn-lg btn-primary my-2"> <h2>August 09-10, 2019</h2></button>
+        <h2 class="univ-name"> Sikkim Manipal Insitute of Technology, Sikkim</h2>
+    </div>
+</div>
+
+</section>
+
+
+<section id="about">
+
+    <div class="container jumbotron well">
+        <p>
+                In the current academic world of mathematics or engineering, most scholarly jour-
+                nals expect scientific articles to be typed out in a professional manner. Any well
+                reputed journal, including Linear Algebra and Its Applications, Electronic Journal
+                of Linear Algebra, International Journal of Engineering Science and Journal of Ap-
+                plied Mechanics accepts articles in the form tex files which are known for their
+                professional type settings and remain flexible throughout all operating systems. As
+                a result, editing or modifying the content become easier and converting from one
+                template to another is also less cumbersome.
+        </p>
+        <p>
+                It is a known fact that researchers struggle to align and format mathematical
+                equations in WYSIWYG editors such as Microsoft Word. This is also true for
+                figures and tables especially with regard to captioning them and referring them
+                elsewhere in the document. One editor that aims to address these issues is $\LaTeX$ .
+                $\LaTeX$ has an excellent in-built referencing system to label and refer tables and figures
+                anywhere in the document. Bibliographies and indices are also crucial to academic
+                writing. $\LaTeX$ makes it easy to type equations, to keep the figures and tables at ap-
+                propriate places and handles the bibliography with ease. $\LaTeX$ s ability to handle
+                the subject indices as well as author indices are also remarkable.
+        </p>
+        <p>
+                The most admirable feature of the $\LaTeX$ is the clear separation between the con-
+                tent and the formatting of the document. The in-built coding takes care of many
+                things which allows content to be typed without formatting adjustments. As a
+                result,the typographical quality of the document is always much improved when
+                compared to any WYSIWYG editor. Version control (Git,GNU,CVS,etc) is a very
+                powerful tool that is widely used and allows easy reversal earlier versions of the doc-
+                ument without storing multiple copies. $\LaTeX$ also enables real-time collaboration on
+                a single document by two different parties simultaneously Furthermore, $\LaTeX$ needs
+                only text files to create documents, which makes is it easy to write a small script
+                and to generate large documents such as results of a program, weather reports, time
+                tables, catalogues and the like. A predefined template can easily be converted into
+                a script by the computer directly..
+        </p>
+
+        <p>
+                The learning curve in $\LaTeX$ is straightforward and unique and as a result, unor-
+                ganised documents cannot be created in $\LaTeX$ . Linked below is one article explain-
+                ing in further detail, the ease in using $\LaTeX$  over WYSIWYG editors -
+                <a href="https://tex.stackexchange.com/questions/1756/why-should-i-use-LaTeX">https://tex.stackexchange.com/questions/1756/why-should-i-use-LaTeX</a>
+        </p>
+    </div>
+</section>
+
+    <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+  <!-- Loding the navigation -->
+  <script>
+          $(document).ready(function(){
+              $("#header_section").load("./inc/nav.html"); 
+          })
+   </script>
+   </body>
+</html>
